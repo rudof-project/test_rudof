@@ -1826,9 +1826,9 @@ dependencies = [
 
 [[package]]
 name = "rudof_lib"
-version = "0.1.82"
+version = "0.1.85"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "b3ce98b5fe932cca6623beae1aadc705b49e94f1da53c3175fea5952de3c1357"
+checksum = "185d48d93ee6ebb035dac72868e290ccb78c2ec0457525985df3f6ce3c3ef538"
 dependencies = [
  "dctap",
  "iri_s",
@@ -2167,9 +2167,9 @@ dependencies = [
 
 [[package]]
 name = "shapes_converter"
-version = "0.1.82"
+version = "0.1.83"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "4d0b3ee95293a0c029cba89c4269cd6cbee675bf7f08bca82f34694275b88227"
+checksum = "0c72c730960b1373f2e85c63db09c904805eb59990377feb17680d1efca04501"
 dependencies = [
  "chrono",
  "dctap",
@@ -2201,9 +2201,9 @@ dependencies = [
 
 [[package]]
 name = "shex_ast"
-version = "0.1.82"
+version = "0.1.83"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "37536ee5784e2e5553562b038654fdf2219deefa078012e85b541a2d3badb060"
+checksum = "c3ab621b37b9382bfa97e9b2017920b0fd1501f5c5439af88fa769adf5ec3966"
 dependencies = [
  "const_format",
  "iri_s",
@@ -2371,9 +2371,9 @@ dependencies = [
 
 [[package]]
 name = "sparql_service"
-version = "0.1.82"
+version = "0.1.84"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "8ef56ca9e88099a3ab2fa491c39616743664b636364976dfa9b534198837cbb2"
+checksum = "f6021d5391e980d10fd7deb1f87f2ff1962ea0d26a2bd94dd1458f9a545797c7"
 dependencies = [
  "colored",
  "const_format",
@@ -2395,9 +2395,9 @@ dependencies = [
 
 [[package]]
 name = "srdf"
-version = "0.1.82"
+version = "0.1.85"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "2396c9bdccd7f3d968c742f0a41bcacf53265b2c52dc5cc6cb7c8a4d347f7952"
+checksum = "c30654414ed3c6f478b79d2dbad7ab1e63109fbf3fa40124012156ca026d3929"
 dependencies = [
  "async-trait",
  "colored",
@@ -2407,6 +2407,7 @@ dependencies = [
  "lazy_static",
  "oxilangtag",
  "oxiri",
+ "oxjsonld",
  "oxrdf",
  "oxrdfio",
  "oxrdfxml",
